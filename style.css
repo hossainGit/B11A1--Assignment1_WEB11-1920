@@ -1,0 +1,104 @@
+*{
+font-family: Fira Sans;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+min-height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.title{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    margin-left: 160px;
+}
+
+.btn1{
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+padding: 15px 30px 15px 30px;
+text-decoration: none;
+margin-right: 160px ;
+   }
+
+.btn1:hover{
+    background-color: rgb(0, 106, 80);
+    color:white;
+}
+
+.banner{
+    display: flex;
+    background-color: rgb(198, 228, 214);
+    min-height: 560px; 
+    margin: 0px 160px ;
+    border-radius: 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Btxt{
+    padding-left: 60PX;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+
+width: 40%;
+
+}
+
+#bt1{
+color: rgba(14, 14, 14, 0.5);
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+
+#bt2{
+    color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 24px;
+}
+
+#bt3{
+    width: 270px ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    text-align: center;
+    padding:17px 34px;
+
+}
+
+
+.bannerImg{
+    padding-top: 50px;
+    padding-bottom: 50px;
+padding-right: 60px;
+padding-left: 60px;
+} 
+
+
+
+
+
+
+
+
+
+
