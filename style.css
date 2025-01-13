@@ -2,8 +2,12 @@
 font-family: Fira Sans;
     margin: 0;
     padding: 0;
-    /* background-color: rgb(226, 226, 226); */
-}
+    }
+
+    body{
+        background: rgb(232, 238, 236);
+
+    }
 
 .top{
 min-height: 100px;
@@ -94,21 +98,108 @@ padding-right: 60px;
 padding-left: 60px;
 } 
 
+/* vision css start */
+
 .article1{
-    margin: 0px 160px;
+    margin: 0px 160px 32px;
 }
 
-.title2{
+#title2{
     color: rgb(14, 14, 14);
-font-size: 40px;
-margin-bottom: 24px;
+    font-size: 40px;
+    margin-bottom: 24px;
 }
 
-.content2{
+#content2{
     color: rgba(14, 14, 14, 0.7);
 font-size: 16px;
 font-weight: 400;
+}
 
+.vs{       
+    display: flex;
+    margin: 0px 160px;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.vision {
+    background-color: #000000;
+    border-radius: 16px;
+    text-align: left;
+    padding: 32px;
+    max-width: 410px;
+}
+
+/* box background clrs */
+#vision1 {
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+#vision2 {
+    border-radius: 16px;
+background-color: rgb(198, 228, 214);
+}
+#vision3 {
+    border-radius: 16px;
+background-color: rgb(247, 235, 207); 
+}
+
+/* inside box */
+.vision img {
+    width: 50px;
+    margin-bottom: 25px;
+}
+
+.vision h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.vision p {
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.buttonV {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Learnmore buttons */
+#vision1 .buttonV {
+    border-radius: 8px;
+background-color: rgb(84, 144, 245);
+}
+
+#vision2 .buttonV {
+    border-radius: 8px;
+background-color: rgb(9, 161, 92);
+}
+
+#vision3 .buttonV {
+    border-radius: 8px;
+background-color: rgb(255, 194, 57);
+}
+
+
+#vision1 .buttonV:hover {
+    color: rgb(84, 144, 245);
+    background-color: #fff;
+}
+#vision2 .buttonV:hover {
+    color: rgb(9, 161, 92);
+    background-color: #fff;
+}
+#vision3 .buttonV:hover {
+    color: rgb(255, 194, 57);
+    background-color: #fff;
 }
 
 
