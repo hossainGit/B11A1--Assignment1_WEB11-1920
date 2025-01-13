@@ -202,6 +202,122 @@ background-color: rgb(255, 194, 57);
     background-color: #fff;
 }
 
+/* news */
+.news{
+    margin: 0px 160px;
+    background-color: white;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 24px;
+    border-radius: 24px;
+}
+
+
+.news h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.nsDetails img{
+    min-height: 40px;
+    margin-bottom: 12px;
+}
+
+.DateTime{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content:flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.news p{
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.news a{
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 13px 26px;
+}
+
+.news a:hover{
+    background-color: rgb(190, 255, 174);
+    color: rgb(0, 106, 80);
+}
+
+.nsImg img{
+border-radius: 24px;
+}
+
+/* donate */
+.donate{
+    margin: 80px 160px 0px;
+}
+
+.donate h1{
+    font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-bottom:32px ;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.amount button{
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    border: none;
+
+font-size: 40px;
+font-weight: 700;
+border-radius: 16px;
+}
+
+.amount .tk200{
+    background-color: rgb(198, 228, 214);
+}
+
+.amount button:hover{
+    background-color: rgb(198, 228, 214);
+border: 2px solid green;
+}
+
+.otherTk{
+    margin-top: 32px;
+    display:flex;
+    /* max-width: 1032px; */
+    align-items: center;
+}
+
+
+
+
+
+
 
 
 
