@@ -284,6 +284,7 @@ margin-bottom:32px ;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 32px ;
 }
 
 .amount button{
@@ -302,8 +303,8 @@ border-radius: 16px;
 }
 
 .amount button:hover{
-    background-color: rgb(198, 228, 214);
-border: 2px solid green;
+    background-color: rgb(203, 230, 204);
+
 cursor: pointer;
 }
 
@@ -343,11 +344,125 @@ font-weight: 600;
     cursor: pointer;
 }
 
+/* challange task */
+
+.subs{
+    margin: 0px 160px;
+    background-color: rgb(198, 228, 214);
+    margin-bottom: 80px;
+    text-align: center;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 385px; */
+    padding: 80px 100px;
+}
+
+.subs h1{
+    font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.subs p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.subEmail{
+    margin: 24px 0px;
+    display: flex;
+    justify-content: center;
+    gap: none;
+}
+
+.subEmail input[type=text]{
+border: none;
+padding: 18px 40px;
+width: 600px;
+border-radius: 8px 0px 0px 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.subEmail input[type=submit]{
+    background-color: rgb(0, 106, 80);
+    width: 150px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px 17px 34px;
+    border: none;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+color: white;
+}
+
+.subEmail input[type=submit]:hover{
+    background-color: rgb(255, 194, 61);
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.quote{
+    margin: 0px 160px;
+    border-radius: 16px;
+    background-color: white;
+    margin-bottom: 80px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+background-position: 24px 19.5px;
+    padding: 48px 24px;
+}
+
+.quote h2{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+margin-bottom: 4px;
+}
+
+.quote p{
+    color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+#qt{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
 
 
+.foot{
+    text-align: center;
+    padding: 50px 160px;
+    background-color: #fff;
+}
 
+.foot h2{
+    color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+    margin-bottom: 55px;
+}
 
-
+.icons{
+    display: flex;
+    justify-content: center;
+    gap:23px;
+}
 
 
 
