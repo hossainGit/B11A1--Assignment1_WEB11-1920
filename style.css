@@ -304,14 +304,45 @@ border-radius: 16px;
 .amount button:hover{
     background-color: rgb(198, 228, 214);
 border: 2px solid green;
+cursor: pointer;
 }
 
 .otherTk{
     margin-top: 32px;
     display:flex;
-    /* max-width: 1032px; */
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
+
+.otherTk input[type=text]{
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+border: none;
+}
+
+.otherTk input[type=submit]{
+    border: none;
+    color: white;
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    padding: 13px 26px;
+    height: 56px;
+    margin-bottom: 80px;
+    font-size: 18px;
+font-weight: 600;
+}
+
+.otherTk input[type=submit]:hover{
+    background-color: rgb(190, 255, 174);
+    color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
 
 
 
